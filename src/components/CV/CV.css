@@ -1,0 +1,17 @@
+
+.profile-cv {
+	display: flex;
+	align-items: center;
+	padding: 8px 16px 8px 8px;
+	background: #e5e5e5;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 600;
+	color: #a5a5a5;
+	text-decoration: none;
+}
+
+.profile-cv:hover {
+	background: #d5d5d5;
+}
