@@ -1,0 +1,16 @@
+
+.contact-info {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	padding: 4px 8px;
+	border-radius: 8px;
+}
+
+.contact-info:hover {
+	background: var(--grey-bg);
+}
+
+.contact-info-icon {
+	margin-right: 8px;
+}
