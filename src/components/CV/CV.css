@@ -3,15 +3,15 @@
 	display: flex;
 	align-items: center;
 	padding: 8px 16px 8px 8px;
-	background: #e5e5e5;
+	background: var(--grey-bg);
 	border-radius: 8px;
 	cursor: pointer;
 	font-size: 18px;
 	font-weight: 600;
-	color: #a5a5a5;
+	color: var(--grey-text);
 	text-decoration: none;
 }
 
 .profile-cv:hover {
-	background: #d5d5d5;
+	background: var(--grey-hover);
 }

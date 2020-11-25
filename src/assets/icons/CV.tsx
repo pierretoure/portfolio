@@ -10,7 +10,7 @@ const CV = ({ className, size=512 }: CVProps) => {
 		<svg 
 		id="Capa_1" 
 		className={className}
-		enable-background="new 0 0 496.231 496.231" 
+		enableBackground="new 0 0 496.231 496.231" 
 		height={size.toString()} 
 		viewBox="0 0 496.231 496.231" 
 		width={size.toString()} 
