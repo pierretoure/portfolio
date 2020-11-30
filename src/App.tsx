@@ -6,8 +6,7 @@ import CV from 'components/CV/CV';
 import { SnackbarProvider } from 'notistack';
 import Email from 'components/ContactInformation/components/Email';
 import PhoneNumber from 'components/ContactInformation/components/PhoneNumber';
-import LinkedIn from 'components/LinkedIn/LinkedIn';
-import Malt from 'components/Malt/Malt';
+import { Malt, LinkedIn } from 'widgets/SocialNetworks/SocialNetworks';
 
 function App() {
 	const [activePhrase, setActivePhrase] = useState("");
