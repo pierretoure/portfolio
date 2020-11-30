@@ -4,9 +4,8 @@ import ProfilePicture from './components/ProfilePicture/ProfilePicture';
 import Location from './components/Location/Location';
 import CV from 'components/CV/CV';
 import { SnackbarProvider } from 'notistack';
-import Email from 'components/ContactInformation/components/Email';
-import PhoneNumber from 'components/ContactInformation/components/PhoneNumber';
 import { Malt, LinkedIn } from 'widgets/SocialNetworks/SocialNetworks';
+import { Email, PhoneNumber } from 'widgets/ContactInformations/ContactInformations';
 
 function App() {
 	const [activePhrase, setActivePhrase] = useState("");
